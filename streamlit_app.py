@@ -10,7 +10,7 @@ option = st.selectbox(
 )
 
 st.write("You selected:", option)
-if option==Bola:
+if option=="Bola":
     jari = st.number_input("Masukkan jari-jari bola (cm):")
     st.write("Jari-jari bola sebesar", jari)
     vol=3,14*jari*jari*jari
