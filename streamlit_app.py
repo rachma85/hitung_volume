@@ -15,3 +15,14 @@ if option=="Bola":
     st.write("Jari-jari bola sebesar", jari)
     vol=3,14*jari*jari*jari
     st.write("Volume bola dengan jari-jari sebesar",jari,"cm adalah",vol,"cm3")
+elif option=="Tabung":
+    tinggi=st.number_input("Masukkan tinggi tabung (cm):")
+    jari = st.number_input("Masukkan jari-jari tabung (cm):")
+    vol=3,14*jari*jari*tinggi
+    st.write("Volume tabung dengan tinggi",tinggi,"dan jari-jari sebesar",jari,"cm adalah",vol,"cm3")
+elif option=="Kerucut":
+    tinggi=st.number_input("Masukkan tinggi kerucut (cm):")
+    jari = st.number_input("Masukkan jari-jari kerucut (cm):")
+    vol=(3,14*jari*jari*tinggi)/3
+    st.write("Volume kerucut dengan tinggi",tinggi,"dan jari-jari sebesar",jari,"cm adalah",vol,"cm3")    
+    
