@@ -2,5 +2,5 @@ import streamlit as st
 
 st.title("Aplikasi Menghitung Volume")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Aplikasi ini digunakan untuk menghitung volume benda antara lain: bola, tabung, kerucut, prisma, balok, kubus."
 )
