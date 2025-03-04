@@ -23,7 +23,7 @@ elif option=="Tabung":
 elif option=="Kerucut":
     tinggi=st.number_input("Masukkan tinggi kerucut (cm):")
     jari = st.number_input("Masukkan jari-jari kerucut (cm):")
-    vol=(3,14*jari*jari*tinggi)/3
+    vol=3,14*jari*jari*tinggi/3
     st.write("Volume kerucut dengan tinggi",tinggi,"dan jari-jari sebesar",jari,"cm adalah",vol,"cm3")    
 elif option=="Balok":
     p=st.number_input("Masukkan panjang tabung (cm):")
