@@ -26,8 +26,13 @@ elif option=="Kerucut":
     vol=3.14*jari*jari*tinggi/3
     st.write("Volume kerucut dengan tinggi",tinggi,"dan jari-jari sebesar",jari,"cm adalah",vol,"cm3")    
 elif option=="Balok":
+    st.image("C:\Users\HP\Pictures\balok.webp")
     p=st.number_input("Masukkan panjang balok (cm):")
     l=st.number_input("Masukkan lebar balok (cm):")
     t=st.number_input("Masukkan tinggi balok (cm):")
     vol=p*l*t
-    st.write("Volume balok dengan panjang=",p,",lebar=",l,",tinggi=",t,"cm adalah",vol,"cm3")   
+    st.write("Volume balok dengan panjang=",p,",lebar=",l,",tinggi=",t,"cm adalah",vol,"cm3")
+elif option=="Kubus":
+    sisi=st.number_input("Masukkan panjang sisi (cm):")
+    vol=sisi*sisi
+    st.write("Volume kubus dengan panjang sisi=",sisi,"cm adalah",vol,"cm3")
